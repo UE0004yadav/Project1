@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Login form </title>
+</head>
+<body class="bdy">
+
+
+
+          <form class="login_form" action="login.php" method="post">
+          <div class="Welcome_back">
+            Welcome back
+          <div class="Login_to_your_account">
+            <h1> Login to your account</h1>
+          </div>
+        
+          </div>
+          
+          <div class="input_crediantial">
+            <label for="email">Email</label><br>
+            <input class='fields'   type="email" id="email" name="email" placeholder="you@example.com" required><br>
+
+            <label for="password">Password</label><br>
+            <input class='fields'  type="password" id="password" name="password" placeholder="password" required><br>
+
+            <label for="role">Role</label><br>
+                <select id="role" name="role" required>
+
+                 <option value="">-- Select a Role --</option>
+                 <option value="admin">Admin</option>
+                 <option value="Subadmin">Subadmin</option>
+                 <option value="faculty">Faculty</option>
+                 <option value="student"> Student</option>
+        
+               </select><br>
+
+      
+
+          </div>
+          <button class="loginbtn" type="submit"> Login</button>
+
+      
+       </form> 
+</body>
+</html>

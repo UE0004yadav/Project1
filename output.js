@@ -1,0 +1,1 @@
+console.log("Hello everyone console.log is used for printing something on the display");

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="registration_form.css">
+    <title>Student registration form for personal information</title>
+</head>
+<body>
+    <div class="form_container">
+        <h2> Personal Details</h2>
+        <form id="registrationForm">
+            <fieldset>
+                <legend>Personal information</legend>
+                <div class="form-group">
+                    <label for="firstName">First Name<span class="required">*</span></label>
+                    <input type="text" id="firstName" name="firstName" required>
+                    <div class="error-message" id="firstNameError"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="lastName">Last Name<span class="required"></span></label> &nbsp;
+                    <input type="text" id="lastName" name="lastName">
+                    <div class="error-message" id="lastNameError"></div>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date Of Birth<span class="required">*</span></label>
+                    <input type="date" id="dob" name="dob" required>
+                    <div class="error-message" id="dobError"></div>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender<span class="required">*</span></label> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <select id="gender" name="gender" required>
+                    <option value="">Select Gender </option>
+                    <option value="">Male </option>
+                    <option value="">Female </option>
+                    <option value="">Others </option>
+                    </select>
+                    <div class="error-message" id="genderError"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="nationalty">Nationalty<span class="required">*</span></label>
+                    <input type="text" id="nationalty" name="nationalty" value="Indian" required>
+                </div>
+                    <div class="form-group">
+                        <label for="aadhar">Adhar number </label>
+                        <input type="text" id="adhar" name="aadhar" pattern="^\d{12}$" title="Adhar number must be 12 digits">
+                        <div class="error-message" id="aadharError"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="blood_group"> Blood Group </label>
+                        <select id="blood_group" name="blood_group">
+                            <option value="">Select blood group </option>
+                            <option value=""> O </option>
+                            <option value=""> A </option>
+                            <option value=""> B </option>
+                            <option value=""> AB </option>
+
+                        </select>
+                        <div class="erro-message" id="blood_group"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="religion"> Religion </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <select id="religion" name="religion">
+                            <option value="">Select Religion </option>
+                            <option value=""> Hindu </option>
+                            <option value=""> Muslim </option>
+                            <option value=""> Sikkh</option>
+                            <option value=""> Christian </option>
+                            <option value=""> Other </option>
+                        </select>
+                        <div class="erro-message" id="religion"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category"> Category </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <select id="category" name="category">
+                            <option value="">Select category </option>
+                            <option value=""> Obc </option>
+                            <option value=""> sc </option>
+                            <option value=""> st</option>
+                            <option value=""> general</option>
+                            <option value=""> Other </option>
+                        </select>
+                        <div class="erro-message" id="category"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mother_tongue"> Mother Tongue </label>
+                        <select id="mother_tongue" name="mother_tongue">
+                            <option value="">Select Mother Tongue </option>
+                            <option value=""> Hindi </option>
+                            <option value=""> English </option>
+                            <option value=""> Marathi</option>
+                            <option value=""> Udiya</option>
+                            <option value=""> Bengali</option>
+                            <option value=""> Others</option>
+                        </select>
+                        <div class="erro-message" id="category"></div>
+                    </div>
+
+
+                 
+                 <a class="btn" href="file:///C:/Users/hp/Desktop/.vscode/Frontend%20page/Projects/Registration%20form/Registration_form1.html">   
+                    <div class="nextbtn1">
+                        <button type="button" class="nextbtn">Next</button>
+                    </div> </a>  
+
+                    
+                
+
+            </fieldset>
+            
+        </form>
+
+    </div>
+
+
+</body>
+</html>

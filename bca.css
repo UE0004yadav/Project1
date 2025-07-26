@@ -1,0 +1,184 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.hero{
+    background-color: #e7f072;
+    height: 100vh;
+    width: auto;
+}
+
+.logo{
+    margin-top: 1.5%;
+    left: 1.5%;
+    display: flex;
+    position: absolute;
+    
+
+}
+.cmlogo{
+    border: 2px solid blue;
+    border-radius: 15px;
+    
+    width: 100px;
+    height: 50px;
+    
+}
+.logo h1{
+    font-size: 1.4rem;
+    color: blue;
+    line-height: 1;
+    padding: 0px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.main-heading h1{
+    display: flex;
+    position: absolute;
+    top: 70px;
+    left: 15%;
+    color: #181717;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.bcagirlimg{
+    display: flex;
+    position: absolute;
+    left: 2%;
+    top: 25%;
+    width: 300px;
+    height: 450px;
+}
+ 
+.icon-sec-left{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    
+}
+.icon-sec-left .icon-cont{
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+.money-icon{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left:55%;
+}
+.money-icon .icon-cont{
+    margin-top: 9px;
+    font-size: 1.4rem;
+}
+.calendar-icon{
+     display: flex;
+    position: absolute;
+    top: 70%;
+    left: 55%;
+
+}
+.calendar-icon .icon-cont{
+    margin-top: 9px;
+    font-size: 1.4rem;
+}
+.gificon{
+    display: flex;
+    position: absolute;
+    top: 65%;
+    left: 30%;
+   
+    
+
+}
+.img-fluid-emi{
+    width: 150px;
+    height: 150px;
+
+}
+.about-section{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 3cm;
+    padding-right: 3cm;
+}
+.about-container .hero-heading h1{
+    font-size: 2.5rem;
+    padding-top: 1.5cm;
+    
+}
+.abut-cont{
+    color: grey;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+.cifa-boxes{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cifa-boxes .boxes{
+   
+    width: 250px;
+    height: 380px;
+    box-shadow: 1px 1px 2px 1px #acabab;
+}
+.boxes h1{
+    padding-top: 30px;
+    color: #f72c4e;
+    text-align: center;
+    font-size: 2.4rem;
+}
+.boxes p{
+    color: grey;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    line-height: 1.5;
+    font-weight: normal;
+}
+.fee{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.fee_container{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    text-align: left;
+    
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  box-shadow: 2px 2px 7px 2px rgb(155, 154, 154);
+ 
+}
+    
+th{
+    background-color: orangered;
+    
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.fee_stucture{
+    color: red;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+}

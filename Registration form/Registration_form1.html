@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="registration_form.css"> 
+    <title>Registratiion form for Contact information</title>
+</head>
+<body>
+     <div class="form_container">
+        <h2> Contact information </h2>
+        <form id="registrationForm">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-group">
+                    <label for="email">Email<span class="required">*</span></label>
+                    <input type="email" id="eamil" name="email" required placeholder="abc@gamil.com">
+                    <div class="error-message" id="emailError"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Mobile Number<span class="required">*</span></label>
+                    <input type="tel" id="phone" name="phone" placeholder="9876543210" pattern="^\d{10}$" title="Phone number must be 10 digits" required>
+                    <div class="error-message" id="phoneError"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="address">Current Address <span class="required">*</span></label>
+                    <textarea id="address" name="address" rows="3" required placeholder="H.no., main street,village/towncity, district, state (pincode)"></textarea>
+                    
+                    <div class="error-message" id="addressError"></div>
+                </div>
+                <div class="form-group">
+                    <label for="Permanentaddress">Permanent Address <span class="subinfo">(If both addresses are different)</span></label>
+                    <textarea id="Permanentaddress" name="Permanentaddress" rows="3" placeholder="H.no., main street,village/town/city, district, state (pincode)"></textarea>
+                    
+                    <div class="error-message" id="PermanentaddressError"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="city">City<span class="required">*</span></label>
+                    <input type="text" id="city" name="city"  required>
+                    <div class="error-message" id="cityError"></div>
+                </div>
+                    <div class="form-group">
+                    <label for="state">State<span class="required">*</span></label>
+                    <input type="text" id="state" name="state"  required>
+                    <div class="error-message" id="stateErroe"></div>
+                </div>
+                <div class="form-group">
+                    <label for="pincode">Pincode<span class="required">*</span></label>
+                    <input type="text" id="pincode" name="pincode"  required>
+                    <div class="erro-message" id="pincodeError"></div>
+                </div>
+                    
+                
+
+            </fieldset>
+           <div class="nextbtn1">
+            <a href="file:///C:/Users/hp/Desktop/.vscode/Frontend%20page/Projects/Registration%20form/Registration_form2.html">
+              <button type="button">Next</button> </a>  </div>   
+                    
+                    
+        </form>
+
+    </div>
+</body>
+</html>

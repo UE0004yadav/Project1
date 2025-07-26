@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="registration_form.css">
+    <title>Registratiion form for Academic Information</title>
+</head>
+<body>
+     <div class="form_container">
+        <h2> Academic Information</h2>
+        <form id="registrationForm">
+            <fieldset>
+                <legend>Academic  information</legend>
+                <div class="form-group">
+                    <label for="highschoolboard">High school Board<span class="required">*</span></label>
+                    <input type="text" id="highschoolboard" name="highschoolboard" required placeholder="e.g., UP BOARD, CBCS, ICSE">
+                    <label for="highschoolrollnumber">Roll Number <span class="required">*</span></label>
+                    <input type="text" id="highschoolrollnumber" name="highschoolrollnumber" required><br/>
+                    <label for="highschoolpassingyear">Passing year<span class="required">*</span></label>
+                    <input type="year" id="highschoolpassingyear" name="highschoolpassingyear" require><br/>
+                    <label for="highschoolpercentage">Percentage <span class="required">*</span></label>
+                    <input type="text" id="highschoolpercentage" name="highschoolpercentage" required><br/>
+                    <label for="uploadmarksheet"> Upload Marksheet <span class="required">*</span></label>
+                    <input type="file" id="highschoolmarksheet" name="highschoolmarksheet">
+                    <div class="error-message" id="highschoolboardError"></div>
+                </div>
+                <hr/>
+
+                <div class="form-group">
+                    <label for="intermediatboard">Intermediat Board<span class="required">*</span></label>
+                    <input type="text" id="intermediatboard" name="intermediatboard" required placeholder="e.g., UP BOARD, CBCS, ICSE">
+                    <label for="interrollnumber">Roll Number <span class="required">*</span></label>
+                    <input type="text" id="interrollnumber" name="interrollnumber" required><br/>
+                    <label for="Interpassingyear">Passing year<span class="required">*</span></label>
+                    <input type="year" id="Interpassingyear" name="Interpassingyear" require><br/>
+                    <label for="intermediatpercentage">Percentage <span class="required">*</span></label>
+                    <input type="text" id="intermediatpercentage" name="intermediatpercentage" required><br/>
+                    <label for="uploadmarksheet"> Upload Marksheet <span class="required">*</span></label>
+                    <input type="file" id="intermediatmarksheet" name="intermediatmarksheet">
+                    <div class="error-message" id="intermediatboardError"></div>
+                </div>
+                <hr/>
+                <div class="form-group">
+                    <label for="graduation">Higher Education<span class="required">*</span></label>
+                 <select id="graduation" name="graduation" required>
+                    <option value="">Select Higher Education </option>
+                    <option value="">Bsc </option>
+                    <option value="">B.tech </option>
+                    <option value="">BBA </option>
+                    <option value="">BCA </option>
+                    <option value="">B.Ed. </option>
+                    <option value="">B.Com </option>
+                 </select><br/>
+                 <label for="graduationrollnumber">Roll Number <span class="required">*</span></label>
+                    <input type="text" id="graduationrollnumber" name="graduationrollnumber" required><br/>
+                 <label for="graduation">Passing year<span class="required">*</span></label>
+                    <input type="year" id="graduationpassingyear" name="graduationpassingyear" require><br/>
+                    <label for="graduationpercentage">Percentage <span class="required">*</span></label>
+                    <input type="text" id="graduationpercentage" name="graduationpercentage" required><br/>
+                    <label for="uploadmarksheet"> Upload Final Year Marksheet <span class="required">*</span></label>
+                    <input type="file" id="graduationmarksheet" name="graduationmarksheet">
+                    <div class="error-message" id="graduationpassingyearError"></div>
+                </div>
+                <hr/>
+
+            </fieldset>
+            <div class="form-action">
+                <button type="submit">Register</button>
+                <button type="reset">Clear Form</button>
+            </div>
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
