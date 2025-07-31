@@ -7,71 +7,33 @@
     <title>Registration Form for a perticular course</title>
 </head>
 <body>
-    <section class="form">
-        
+    <section class="form">        
     <div class="form-container">
     <h2>Register for a Course</h2><br><br>
     <form action="register.php" method="POST">
-      <label for="name">Full Name:</label>
-      <input class='fields'  type="text" id="name" name="name" placeholder=" Your full name" required>
+      <label for="name">Full Name:</label><br>
+      <input class='fields'  type="text" id="name" name="name" placeholder=" Your full name" required><br>
         
-      <label for="email">Email:</label> &nbsp;
+      <label for="email">Email:</label> &nbsp;<br>
       <input class='fields'   type="email" id="email" name="email" placeholder=" you@example.com" required><br>
 
-      <label for="password">Password:</label>
-      <input class='fields'  type="password" id="password" name="password" placeholder=" Create a password" required minlength="8">
-
-      <label for="contact">Conatct:</label>
-      <input class="fields" type="contact" id="contact" name="contact" placeholder="e,g., 7856231425" required minlength="10"><br><br>
-
-      <label for="address">Address:</label>&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp;&nbsp; 
-      <textarea class="fields" type="address" id="address" name="address" placeholder=" A86, Mayur vihar Gandhi nagar Ring Road Agra. " required minlength="5"></textarea><br>
-       
-      <div class="dropdownlist_box">
-      <label for="higher_education">Higher Edu:</label>
-      <select name="higher_education" id="higher_education"  required>
-        <option value="">-- Select Higher Education --</option>
-        <option value="high_school">High school</option>
-        <option value="intermediate">Intermediate</option>
-        <option value="graduation">Graduation </option>
-        <option value="others">Others</option>
-        
-      </select> &nbsp;&nbsp;&nbsp;
-     
-      <label for="course">Course:</label>
-      <select id="course" name="course" required>
-        <option value="">-- Select Course --</option>
-        <option value="bba">BBA</option>
-        <option value="bca">BCA</option>
-         <option value="b.com">B.COM</option>
-        <option value="mba">MBA</option>
-         <option value="mca">MCA</option>
-          <option value="others">Others</option>
-        
-        
-      </select><br>
-      </div>
-
-      <label for="role">Select Role:</label>
-      <select id="role" name="role" required>
-        <option value="">-- Select Role --</option>
+      <label for="password">Password:</label><br>
+      <input class='fields'  type="password" id="password" name="password" placeholder=" Create a password" required minlength="8"><br>
+      <label for="role">Select Role:</label><br>
+      <select id="role" name="fields" required>
+        <option value="">--Select Role --</option>
         <option value="admin">Admin</option>
-        <option value="subadmin">subadmin</option>
-        <option value="faculty">Faculty</option> 
-        <option value="student">Student</option>
-         
-        </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <option value="sudent">Student</option>
+      </select>
+       </div>
+       <button class="registerbtn" type="submit">Register</button>
+      
+      
+  
 
-        <label for="gender">Select Gender:</label>
-      <select id="gender" name="gender" required>
-        <option value="">-- Select Gender --</option>
-        <option value="male">Male</option>
-        <option value="female">Female</option> 
-        <option value="other">Other</option>
-         
-        </select><br>
+        
 
-      <button class="sumbtbtn" type="submit">Register</button>
+      
     </form>
   </div>
 </section>

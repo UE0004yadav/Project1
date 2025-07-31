@@ -15,28 +15,21 @@
     position: sticky;
     top: 0;
 }
-
-
 .header{
     display: flex;
     position: relative;
     
 }
-
 .logo1{
     width: 50px;
     height: 50px;
     border-radius: 20px;
-    padding: 5px;
-    
+    padding: 5px;    
 }
-
 .text{
     color: rgb(83, 17, 236);
     margin-top: 8px;
 }
-
-
 ul{
     list-style-type: none;
     background-color: transparent;
@@ -46,10 +39,7 @@ ul{
 ul li{
     display: inline-block;
     padding: 10px;
-
 }
-
-
 ul li:hover{
     background-color: hsl(103, 94%, 48%);
     color: white;
@@ -292,71 +282,8 @@ a:link {
 hr{
     margin-top: 50px;
 }
-
-/* style for registration form */
-
-.form-container{
-    background-color: beige;
-    width: 90vh;
-    height: 70vh;
-    margin: 5px;
-    margin-left: 100px;
-     border-radius: 10px;
-    padding: 55px;
-    margin-top: 30px;
-    
-}
-
-.fields{
-    margin: 15px;
-}
-#address{
-    margin-left: 2cm;
-    height: 12vh;
-    width: 20vw;
-    text-align: left;
-    display: flex;
-    position: relative;
-    top: -50px;
-}
-.dropdownlist_box{
-    display: flex;
-    position: relative;
-    top: -40px;
-}
-.sumbtbtn{
-    margin-top: 40px;
-    background-color: green;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    margin-left: 100px;
-    cursor: pointer;
-    display: flex;
-    position: relative;
-    left: 20%;
-}
-.form{
-    background-image: url('Images/library.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 98%;
-    margin: 10px;
-    display: flex;
-    position: relative;
-    border-radius: 10px;
-}
-
-.form-container h2{
-    color: green;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-/* style for login form */
 .bdy{
-    background-image: url("Images/faculty.jpg");
+    background-image: url("Images/faculty.jpg"); /*style for login form */
     width: 90%;
     height: 90vh;
     background-size: cover;
@@ -370,7 +297,7 @@ hr{
     border-radius: 10px;
     margin-left: 900px;
     margin-top: 50px;
-    
+    line-height: 1.5;
 }
 
 .Welcome_back{
@@ -383,7 +310,7 @@ hr{
 }
 
 .input_crediantial{
-    margin-left: 20px;
+    margin-left: 1cm;
     margin-top: 10px;
 }
 
@@ -396,6 +323,18 @@ hr{
     border: none;
     border-radius: 5px;
    cursor: pointer;
+   font-weight: bold;
+   font-size: 1rem;
+   color: white;
+}
+.loginbtn:hover{
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+}
+.forgot_pass{
+    margin-left: 1cm;
+    font-size: 0.9rem;
 }
 
 
@@ -451,37 +390,30 @@ hr{
     font-size: 25px;
     font-weight: bold;
 }
-
 .headingpart h1{
     text-align: center;
     color: green;
     font-size: 2.5rem;
-    font-weight: bold;
-    
+    font-weight: bold;    
 }
 .headingpart .searchbar{
     position: absolute;
     justify-content: right;
     margin-left: 84%;
 }
-
 .coursedetails{
     height: 120vh;
     background-color: lightblue;
-    display: flex;
-    
-    
-    
-}
+    display: flex;  
+    }
 
 .coursedetails .container{
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-margin-top: 10px;
-padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-top: 10px;
 }
-
 .coursedetails .container .classes1{
     background-image: url("Images/mca-img.jpg");
     background-repeat: no-repeat;
@@ -494,8 +426,7 @@ padding-top: 10px;
     width: 400px;
     height: 300px;
     margin-top: 20px;
-    text-align: center;
-    
+    text-align: center;      
 }
 .coursedetails .container .classes2{
     background-image: url("Images/mba-img.jpg");
@@ -509,8 +440,7 @@ padding-top: 10px;
     width: 400px;
     height: 300px;
     margin-top: 20px;
-    text-align: center;
-    
+    text-align: center;  
 }
 .coursedetails .container .classes3{
     background-image: url("Images/bba-img.jpg");
@@ -524,10 +454,8 @@ padding-top: 10px;
     width: 400px;
     height: 300px;
     margin-top: 20px;
-    text-align: center;
-    
+    text-align: center;    
 }
-
 .coursedetails .container .classes4{
     background-image: url("Images/bca-img.jpg");
     background-repeat: no-repeat;
@@ -540,8 +468,7 @@ padding-top: 10px;
     width: 400px;
     height: 300px;
     margin-top: 20px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .coursedetails .container .classes5{
@@ -556,32 +483,15 @@ padding-top: 10px;
     width: 400px;
     height: 300px;
     margin-top: 20px;
-    text-align: center;
-    
+    text-align: center;    
 }
-
-
-
 .classes .item1{
-    background-color: red;
-     
+    background-color: red;     
 }
-
-
-
-/*.classes .item{
-    background-color: tomato;
-    margin: 10px;
-    
-}*/
-
-
 .main-footer{
     background-color: #3b80e7;
     color: #fff;
     text-align: center;
-    padding-top: 10px;
-    
+    padding-top: 10px;    
     font-size:20px;font-family: Times, serif;
-
 }
